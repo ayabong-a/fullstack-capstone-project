@@ -20,6 +20,7 @@ function App() {
           <Route path="/app/register" element={<RegisterPage />} />
           <Route path="/app/search" element={<SearchPage/>} />
           <Route path="/app/profile" element={<Profile/>} />
+          <Route path="/app/product/:id" element={<DetailsPage />} />
         </Routes>
         </>
   );
